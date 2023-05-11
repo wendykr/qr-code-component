@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* intuitivnejší box-sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  color: hsl(0, 0%, 0%);
+}
+
+.card {
+  margin: 0;
+  padding: 1.125rem;
+  width: 20rem;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 0 20px 2px hsla(229, 23%, 23%, 0.1);
+  border-radius: 20px;
+}
+.card__images {
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 17.875rem;
+}
+.card__content {
+  padding: 1.25rem 0.625rem 1.375rem 0.625rem;
+}
+.card__title {
+  margin: 0;
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+.card__perex {
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 0.9375rem;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
